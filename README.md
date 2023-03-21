@@ -50,6 +50,6 @@ print(f"Venue: {venue}\nTime: {time}")
 
 # Predict sport using Multinomial Naive Bayes
 sport = predict_sport(vectorizer, clf, text)
-print(f"Sport: {sport}")
+print(f"Sport: {sport}")```
 
 This example uses the spaCy library to extract the venue and time information and the scikit-learn library to classify the sport name. Note that this is a simple example with a small dataset. For better accuracy and performance, you may need to train your NER model and the Multinomial Naive Bayes classifier with more data.
