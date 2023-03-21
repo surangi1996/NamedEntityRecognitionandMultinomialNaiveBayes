@@ -1,10 +1,10 @@
 # NamedEntityRecognitionandMultinomialNaiveBayes
 To extract specific information like the sport name, venue, and time from a text, you can use a combination of Named Entity Recognition (NER) and Multinomial Naive Bayes. The NER can help you identify entities like venue and time, while the Multinomial Naive Bayes can be used for classifying the sport name. Here's a simple example using the spaCy library for NER and scikit-learn for Multinomial Naive Bayes:
 
-import spacy
+```import spacy
 import re
 from sklearn.feature_extraction.text import CountVectorizer
-from sklearn.naive_bayes import MultinomialNB
+from sklearn.naive_bayes import MultinomialNB```
 
 # Load English tokenizer, tagger, parser, NER, and word vectors
 nlp = spacy.load("en_core_web_sm")
